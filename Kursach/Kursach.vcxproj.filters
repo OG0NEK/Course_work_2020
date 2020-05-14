@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\UniverAndEtc">
+      <UniqueIdentifier>{6aa521bb-e6c2-43a5-b3dc-b1e8aac234ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\UniverAndEtc">
+      <UniqueIdentifier>{80ce091b-9b07-4e1f-81ca-3de4c31a93f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utils">
+      <UniqueIdentifier>{ab0c0d80-c87c-48b2-b97b-61878b0f448a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utils">
+      <UniqueIdentifier>{c45ded45-3636-47e3-ba12-da1946d3b631}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Kursach.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Исходные файлы\UniverAndEtc</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Исходные файлы\UniverAndEtc</Filter>
+    </ClCompile>
+    <ClCompile Include="Subj.cpp">
+      <Filter>Исходные файлы\UniverAndEtc</Filter>
+    </ClCompile>
+    <ClCompile Include="Univer.cpp">
+      <Filter>Исходные файлы\UniverAndEtc</Filter>
+    </ClCompile>
+    <ClCompile Include="Zachetka.cpp">
+      <Filter>Исходные файлы\UniverAndEtc</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FilesWorker.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentArray.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Semestr.cpp">
+      <Filter>Исходные файлы\UniverAndEtc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>Файлы заголовков\UniverAndEtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Файлы заголовков\UniverAndEtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Subj.h">
+      <Filter>Файлы заголовков\UniverAndEtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Univer.h">
+      <Filter>Файлы заголовков\UniverAndEtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Zachetka.h">
+      <Filter>Файлы заголовков\UniverAndEtc</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FilesWorker.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="LanguageDefinitions.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentArray.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Semestr.h">
+      <Filter>Файлы заголовков\UniverAndEtc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
